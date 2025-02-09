@@ -1,0 +1,58 @@
+# Файлы сборки и временные файлы
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.psess
+*.vsp
+*.pidb
+*.svclog
+*.ncb
+*.aps
+*.sdf
+*.opendb
+*.VC.db
+.vscode/
+
+# Файлы Visual Studio
+.vs/
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+.nuget/
+
+# Конфигурации
+appsettings.Development.json
+secrets.json
+secrets/
+.env
+
+# Системные файлы
+Thumbs.db
+Desktop.ini
+
+# Docker (если используешь)
+docker-compose.override.yml
+.dockerignore
+
+# Кэш и временные файлы Rider (если используешь JetBrains Rider)
+.idea/
+*.sln.iml
+
+# Node.js (если есть фронтенд на React/Vue/Angular)
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log

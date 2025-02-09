@@ -1,0 +1,130 @@
+/* Глобальные стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0f8ff; /* Светло-голубой фон */
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1 {
+  color: #1e90ff; /* Темно-синий для заголовков */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Стили для таблицы */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #1e90ff; /* Темно-синий фон для заголовков таблицы */
+  color: white;
+}
+
+td a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Стили для кнопок */
+button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ 
+/* Стили для ссылок */
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Стили для формы создания */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form-container button {
+  width: 100%;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+ 
+/* Кнопка удалить как ссылка */
+.delete-button {
+  background: none;
+  color: #1e90ff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+}
+ 
+/* Стили для кнопок "Редактировать" и "Удалить" */
+.action-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+.action-link:hover {
+  color: #0056b3;
+}
