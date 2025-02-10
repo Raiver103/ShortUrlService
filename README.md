@@ -33,5 +33,5 @@
 * Install IIS Server
 
 # Running the solution
-* ShortUrlSolution.sln -> ShortUrlService.API -> dotnet run - backend
-* ShortUrlSolution.sln -> shorturlservice.frontend -> npm i -> npm start - frontend
+* ShortUrlSolution.sln -> ShortUrlService.API -> dotnet run - backend // port - https://localhost:7229
+* ShortUrlSolution.sln -> shorturlservice.frontend -> npm i -> npm start - frontend // port - http://localhost:3000/
